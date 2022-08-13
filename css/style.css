@@ -635,20 +635,20 @@ only screen and (                min-resolution: 2dppx) {
     text-align: center;
     color: #FEFCF7;
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:500px){
     .why-choose__box{
         padding-bottom: 500px;
     }
     .why-choose__list{
         top: calc(50% - 50px);
-        left: calc(50% - 231px);
+        left: calc(50% - 200px);
     }
     .why-choose__item{
-        max-width: 517px;
+        max-width: 400px;
         padding-top: 41px;
         padding-bottom: 41px;
-        padding-right: 48px;
-        padding-left: 70px;
+        padding-right: 38px;
+        padding-left: 10px;
         flex-direction: row;
         
     }
