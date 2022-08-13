@@ -546,19 +546,23 @@ only screen and (                min-resolution: 2dppx) {
 
 /* COLLECTION SECTION FINISH */
 
+
+
+/* Why choose section start */
 .why-choose {
     margin-top: 120px;
     
 }
 .why-choose__box{
     position: relative;
-    max-width: 327px;
+    width: 100%;
     background: #2C343E;
     border-radius: 10px;
     padding: 64px 24px 650px 24px;
 }
 .why-choose__text-box{
-    max-width: 279px;
+    width: 100%;
+    /* max-width: 279px; */
     
 }
 .why-choose__title {
@@ -613,7 +617,7 @@ only screen and (                min-resolution: 2dppx) {
     background-image: url("../images/delivery-truck.svg");
 }
 .why-choose__text-more{
-    width: 225px;
+    max-width: 225px;
 }
 .why-choose__heading {
     font-family: var(--main-font-family);
@@ -631,3 +635,73 @@ only screen and (                min-resolution: 2dppx) {
     text-align: center;
     color: #FEFCF7;
 }
+@media only screen and (min-width:600px){
+    .why-choose__box{
+        padding-bottom: 500px;
+    }
+    .why-choose__list{
+        top: calc(50% - 50px);
+        left: calc(50% - 231px);
+    }
+    .why-choose__item{
+        max-width: 517px;
+        padding-top: 41px;
+        padding-bottom: 41px;
+        padding-right: 48px;
+        padding-left: 70px;
+        flex-direction: row;
+        
+    }
+    .why-choose__item::before{
+        margin-right: 55px;
+    }
+    .why-choose__text-box{
+        max-width: 550px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .why-choose__text{
+        font-size: 16px;
+    }
+    
+}
+@media only screen and (min-width:850px){
+    .why-choose__item{
+        max-width: 700px;
+        padding-right: 126px;
+    }
+    .why-choose__item::before{
+        margin-right: 100px;
+    }
+    .why-choose__list {
+        top: calc(50% - 150px);
+        left: calc(50% - 332px);
+    }
+    .why-choose__text-more {
+        max-width: 313px;
+    }
+}
+@media only screen and (min-width:1200px){
+    .why-choose__list{
+        top: calc(50% - 51px);
+        left: calc(50% - 554px);
+        display: flex;
+        flex-direction: row;
+    }
+    .why-choose__box{
+        padding-bottom: 286px;
+    }
+    .why-choose__item{
+        flex-direction: column;
+        max-width: 350px;
+        padding:72px 48px 48px 47px;
+    }
+    .why-choose__item::before{
+        margin: 0;
+    }
+    .why-choose__item:nth-child(2){
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+/* Why choose section finish */
