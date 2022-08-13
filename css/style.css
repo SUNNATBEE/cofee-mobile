@@ -641,14 +641,14 @@ only screen and (                min-resolution: 2dppx) {
     }
     .why-choose__list{
         top: calc(50% - 50px);
-        left: calc(50% - 200px);
+        left: calc(50% - 212px);
     }
     .why-choose__item{
-        max-width: 400px;
+        max-width: 450px;
         padding-top: 41px;
         padding-bottom: 41px;
-        padding-right: 38px;
-        padding-left: 10px;
+        padding-right: 30px;
+        padding-left: 45px;
         flex-direction: row;
         
     }
@@ -669,12 +669,13 @@ only screen and (                min-resolution: 2dppx) {
     .why-choose__item{
         max-width: 700px;
         padding-right: 126px;
+        padding-left: 89px;
     }
     .why-choose__item::before{
         margin-right: 100px;
     }
     .why-choose__list {
-        top: calc(50% - 150px);
+        top: calc(50% - 40px);
         left: calc(50% - 332px);
     }
     .why-choose__text-more {
@@ -683,7 +684,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 @media only screen and (min-width:1200px){
     .why-choose__list{
-        top: calc(50% - 51px);
+        top: calc(50% + 40px);
         left: calc(50% - 554px);
         display: flex;
         flex-direction: row;
