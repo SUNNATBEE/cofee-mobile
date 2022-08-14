@@ -774,7 +774,7 @@ only screen and (                min-resolution: 2dppx) {
     .how-work__list{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         
 
     }
@@ -791,5 +791,9 @@ only screen and (                min-resolution: 2dppx) {
         width: 223px;
         margin-right: 20px;
     
+    }
+    .how-work__item:nth-child(3){
+        margin-right: auto;
+        margin-left: auto;
     }
 }
