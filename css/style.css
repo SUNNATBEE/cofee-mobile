@@ -706,3 +706,90 @@ only screen and (                min-resolution: 2dppx) {
     }
 }
 /* Why choose section finish */
+
+.how-work{
+    margin-top: 700px;
+    padding-bottom: 120px;
+}
+.how-work__box {
+    
+}
+.how-work__heading {
+    font-family: var(--main-font-family);
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #83888F;
+}
+.how-work__list {
+    margin-top: 80px;
+    padding-left: 0;
+    list-style: none;
+}
+.how-work__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+}
+.how-work__item::before{
+    background-image: url("../images/01.svg");
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 72px;
+}
+.how-work__item:nth-child(2)::before{
+    background-image: url("../images/02.svg");
+}
+.how-work__item:nth-child(3)::before{
+    background-image: url("../images/03.svg");
+}
+.how-work__title {
+    font-family: var(--main-font-family);
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+.how-work__text {
+    font-family: var(--desc-font-family);
+    font-weight: var(--main-desc-font-weight);
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+    color: #333D4B;
+}
+.how-work__link {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media only screen and (min-width:600px){
+
+
+    .how-work__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+
+    }
+    .how-work__heading::after{
+        background-image: url("../images/arqon.svg");
+        background-repeat: no-repeat;
+        content: "";
+        display: inline-block;
+        width: 497px;
+        height: 31px;
+        margin-top: 40px;
+    }
+    .how-work__item {
+        width: 223px;
+        margin-right: 20px;
+    
+    }
+}
