@@ -849,9 +849,7 @@ only screen and (                min-resolution: 2dppx) {
     margin-top: 610px;
     padding-bottom: 120px;
 }
-.how-work__box {
-    
-}
+
 .how-work__heading {
     font-family: var(--main-font-family);
     font-weight: 900;
@@ -996,12 +994,8 @@ only screen and (                min-resolution: 2dppx) {
 /* How work section finish */
 
 /* About section start */
-.about {
-    
-    
-}
-.container {
-}
+
+
 .about__inner {
     padding: 0 24px;
     padding-top: 111px;
