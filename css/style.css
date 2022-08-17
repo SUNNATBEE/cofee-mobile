@@ -1629,6 +1629,47 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 
+/* Create plan section start */
+.create__plan-box{
+    background-image: url("../images/Bitmap.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    padding-left: 100px;
+    padding-top: 113px;
+    padding-bottom: 100px;
+    margin-top: 40px;
+}
+.create-plan__title{
+    color: #FEFCF7;
+}
+.create-plan__text{
+    color: #FEFCF7;
+}
+
+.creat__plan{
+    background-image: url("../images/plan-hero-bg-img-phone.jpg");
+}
+@media only screen and (min-width:768px){
+    .creat__plan{
+        background-image: url("../images/plan-hero-bg-img-tablet.jpg");
+    }
+}
+@media only screen and (min-width:992px){
+    .creat__plan{
+        background-image: url("../images/plan-hero-bg-img-desktop.jpg");
+        padding-bottom: 150px;
+    }
+}
+@media only screen and (min-width:950px){
+    .how-work__heading::after{
+        background-image: url("../images/Group 19.svg");
+    }
+
+    
+    
+}
+/* Create plan section finish */
+
 
 /* Footer start */
 .site-footer {
