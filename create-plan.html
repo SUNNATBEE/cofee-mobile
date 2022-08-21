@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css"> -->
     
-    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     
@@ -67,34 +67,33 @@
             </div>
         </section>
         
-        
-        <section class="" >
+        <section class="how-work how-work--create-plan" >
             <div class="container">
-                <div class="create__plan-box how-work__box">
-                    <h2 class=" create__plan-heading how-work__heading">
+                <div class="how-work__box how-work__box--create-plan">
+                    <h2 class="how-work__heading">
                     </h2>
                     <ul class="how-work__list">
                         <li class="how-work__item">
-                            <h3 class="create-plan__title how-work__title">
+                            <h3 class="how-work__title how-work__title--create-plan">
                                 Pick your coffee
                             </h3>
-                            <p class=" create-plan__text how-work__text">
+                            <p class="how-work__text--create-plan  how-work__text">
                                 Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
                             </p>
                         </li>
                         <li class="how-work__item">
-                            <h3 class="create-plan__title how-work__title">
+                            <h3 class="how-work__title--create-plan how-work__title">
                                 Pick your coffee
                             </h3>
-                            <p class="create-plan__text  how-work__text">
+                            <p class=" how-work__text--create-plan how-work__text">
                                 Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
                             </p>
                         </li>
                         <li class="how-work__item">
-                            <h3 class="create-plan__title how-work__title">
+                            <h3 class="how-work__title--create-plan how-work__title">
                                 Pick your coffee
                             </h3>
-                            <p class=" create-plan__text  how-work__text">
+                            <p class=" how-work__text--create-plan how-work__text">
                                 Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
                             </p>
                         </li>
@@ -102,6 +101,275 @@
                 </div>
             </div>
         </section>
+
+        <!-- Plan Details Start -->
+
+        <section id="accardion">
+            <h2 class="visually-hidden">Detail Section</h2>
+            <div class="container">
+                <div class="accardion-part">
+                    <ol class="accardion-part__table-list table-list">
+                        <li class="table-list__item">
+                            <span>01</span>
+                            <a class="table-list__link" href="#">Preferences</a>
+                        </li>
+                        <li class="table-list__item">
+                            <span>02</span>
+                            <a class="table-list__link" href="#">Bean Type</a>
+                        </li>
+                        <li class="table-list__item">
+                            <span>03</span>
+                            <a class="table-list__link" href="#">Quantity</a>
+                        </li>
+                        <li class="table-list__item">
+                            <span>04</span>
+                            <a class="table-list__link" href="#">Grind Option</a>
+                        </li>
+                        <li class="table-list__item">
+                            <span>05</span>
+                            <a class="table-list__link" href="#">Deliveries</a>
+                        </li>
+                    </ol>
+                    <form class="accardion-part__form plan-accardion-form" action="https://echo.htmlacademy.ru/courses"
+                        method="POST" autocomplete="off">
+                        <ol class="accardion-part__list accardion-list">
+                            <li class="accardion-list__item">
+                                <details class="accardion-list__details">
+                                    <summary class="accardion-list__details-title">How do you drink your coffee?
+                                        <img src="/images/arrow-down.svg" width="18" height="12" alt="">
+                                    </summary>
+                                    <ul class="accardion-info-list">
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio" name="how_user_drink_coffee"
+                                                    value="Capsule">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Capsule</strong>
+                                                    <span class="accardion-info-box__text">Compatible with Nespresso
+                                                        systems
+                                                        and similar brewers</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio" name="how_user_drink_coffee"
+                                                    value="Filter">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Filter</strong>
+                                                    <span class="accardion-info-box__text">For pour over or drip methods
+                                                        like Aeropress, Chemex, and V60</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio" name="how_user_drink_coffee"
+                                                    value="Espresso">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Espresso</strong>
+                                                    <span class="accardion-info-box__text">Dense and finely ground beans
+                                                        for
+                                                        an intense, flavorful experience</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li class="accardion-list__item">
+                                <details class="accardion-list__details">
+                                    <summary class="accardion-list__details-title">What type of coffee?
+                                        <img src="/images/arrow-down.svg" width="18" height="12" alt="">
+                                    </summary>
+                                    <ul class="accardion-info-list">
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio" name="what_type_of_coffee"
+                                                    value="Single_Origin">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Single Origin</strong>
+                                                    <span class="accardion-info-box__text">Distinct, high quality coffee
+                                                        from a specific family-owned farm</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio" name="what_type_of_coffee"
+                                                    value="Decaf">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Decaf</strong>
+                                                    <span class="accardion-info-box__text">Just like regular coffee,
+                                                        except
+                                                        the caffeine has been removed</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio" name="what_type_of_coffee"
+                                                    value="Blended">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Blended</strong>
+                                                    <span class="accardion-info-box__text">Combination of two or three
+                                                        dark
+                                                        roasted beans of organic coffees</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li class="accardion-list__item">
+                                <details class="accardion-list__details">
+                                    <summary class="accardion-list__details-title">How much would you like?
+                                        <img src="/images/arrow-down.svg" width="18" height="12" alt="">
+                                    </summary>
+                                    <ul class="accardion-info-list">
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio"
+                                                    name="how_much_would_you_like" value="250g">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">250g</strong>
+                                                    <span class="accardion-info-box__text">Perfect for the solo drinker.
+                                                        Yields about 12 delicious cups.</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio"
+                                                    name="how_much_would_you_like" value="500g">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">500g</strong>
+                                                    <span class="accardion-info-box__text">Perfect option for a couple.
+                                                        Yields about 40 delectable cups.</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio"
+                                                    name="how_much_would_you_like" value="1000g">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">1000g</strong>
+                                                    <span class="accardion-info-box__text">Perfect for offices and
+                                                        events.
+                                                        Yields about 90 delightful cups.</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li class="accardion-list__item">
+                                <details class="accardion-list__details">
+                                    <summary class="accardion-list__details-title">Want us to grind them?
+                                        <img src="/images/arrow-down.svg" width="18" height="12" alt="">
+                                    </summary>
+                                    <ul class="accardion-info-list">
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio" name="want_us_to_grind_them"
+                                                    value="Wholebean">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Wholebean</strong>
+                                                    <span class="accardion-info-box__text">Best choice if you cherish
+                                                        the
+                                                        full sensory experience</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio" name="want_us_to_grind_them"
+                                                    value="Filter">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Filter</strong>
+                                                    <span class="accardion-info-box__text">For drip or pour-over coffee
+                                                        methods such as V60 or Aeropress</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio" name="want_us_to_grind_them"
+                                                    value="Cafetiére">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Cafetiére</strong>
+                                                    <span class="accardion-info-box__text">Course ground beans specially
+                                                        suited for french press coffee</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li class="accardion-list__item">
+                                <details class="accardion-list__details">
+                                    <summary class="accardion-list__details-title">How often should we deliver?
+                                        <img src="/images/arrow-down.svg" width="18" height="12" alt="">
+                                    </summary>
+                                    <ul class="accardion-info-list">
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio"
+                                                    name="how_often_should_we_deliver" value="Every week">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Every week</strong>
+                                                    <span class="accardion-info-box__text">$7.20 per shipment. Includes
+                                                        free
+                                                        first-class shipping.</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio"
+                                                    name="how_often_should_we_deliver" value="Every 2 weeks">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Every 2 weeks</strong>
+                                                    <span class="accardion-info-box__text">$9.60 per shipment. Includes
+                                                        free
+                                                        priority shipping.</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                        <li class="accardion-list__input-box accardion-info-box">
+                                            <label>
+                                                <input class="visually-hidden" type="radio"
+                                                    name="how_often_should_we_deliver" value="Every month">
+                                                <span class="accardion-info-box__text-box">
+                                                    <strong class="accardion-info-box__title">Every month</strong>
+                                                    <span class="accardion-info-box__text">$12.00 per shipment. Includes
+                                                        free priority shipping.</span>
+                                                </span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                        </ol>
+                        <div class="accardion-part__order-box order-box">
+                            <h3 class="order-box__title">Order Summary</h3>
+                            <p class="order-box__text">“I drink my coffee as <span
+                                    class="order-box__text-main">Filter</span>, with a <span
+                                    class="order-box__text-main">Decaf</span> type of bean. <span
+                                    class="order-box__text-main">250g</span>
+                                ground ala <span class="order-box__text-main">Cafetiére</span>, sent to me <span
+                                    class="order-box__text-main">Every Week</span>.”</p>
+                        </div>
+                        <div class="accardion-part__btn-box">
+                            <button class="accardion-part__btn" type="button">Create my plan!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Plan Details Finish -->
+        
     </main>
     <!-- Main finish  -->
     
@@ -154,5 +422,39 @@
         </div>
     </footer>
     <!-- Footer finish -->
+
+     <!-- Start Modal Part -->
+     <div class="modal">
+        <div class="modal-part">
+            <div class="modal-part__title-box">
+                <h2 class="modal-part__title">Order Summary</h2>
+            </div>
+            <div class="modal-part__text-box">
+                <p class="modal-part__text">
+                    “I drink my coffee as <span class="modal-part__text-main">Filter</span>, with a <span
+                        class="modal-part__text-main">Decaf</span> type of bean. <span
+                        class="modal-part__text-main">250g</span> ground ala <span
+                        class="modal-part__text-main">Cafetiére</span>, sent to me <span
+                        class="modal-part__text-main">Every Week</span>.”
+                </p>
+                <p class="modal-part__info-text">
+                    Is this correct? You can proceed to checkout or go back to plan selection if something is off.
+                    Subscription discount codes can also be redeemed at the checkout.
+                </p>
+                <div class="modal-part__link-box">
+                    <div class="modal-part__phone-box">
+                        <a class="modal-part-link" href="#">Checkout - $14.00 / mo</a>
+                    </div>
+                    <div class="modal-part__desktop-box">
+                        <h3 class="modal-part__desktop-price">$14.00/ mo</h3>
+                        <button class="modal-part__desktop-link">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Modal Part -->
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
