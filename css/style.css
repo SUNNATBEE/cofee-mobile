@@ -1796,7 +1796,9 @@ only screen and (                min-resolution: 2dppx) {
     padding: 0;
     list-style: none;
 }
-
+.accardion-list__details{
+    list-style: none;
+}
 .accardion-list {
     width: 100%;
     max-width: 730px;
